@@ -376,7 +376,7 @@
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button type="button" class="modal-btn" data-modal-close>
-                <svg class="modal-icon" width="8" height="8">
+                <svg class="modal-icon close" width="8" height="8">
                     <use href="./images/icons.svg#icon-modalclosebtn"></use>
                 </svg>
             </button>
@@ -411,9 +411,11 @@
                     </div>
                     <div class="modal-group">
                         <label class="modal-label" for="comments">Comment</label>
-                        <textarea name="comments" id="comments" rows="6" cols="30" placeholder="Text input"
-                            class="modal-comments">
+                        <textarea name="comments" id="comments" rows="6" cols="30" 
+                        placeholder="Text input"
+                        class="modal-comments">
                         </textarea>
+        
                     </div>
                     <div class="modal-checkbox">
                         <input class="modal-checkbox-input visually-hidden" type="checkbox" id="checkbox" name="checkbox">
@@ -424,15 +426,14 @@
                                 </svg>
                             </span>
                 
-                            <span class="privacy-policy">
+                            <span class="privacy-text">
                                 I accept the terms and conditions of the
                             </span>
-                            <a class="private"
-                            href="https://i.pinimg.com/originals/fd/1c/a0/fd1ca0333007bce83aae07d4b21f8a27.jpg">
+                            <a href="#" class="privacy">
                             Privacy Policy</a>
                         </label>
                     </div>
-                    <button type="submit" class="modal-sent">Send</button>
+                    <button type="submit" class="modal-send">Send</button>
                 </form>
         </div>
     </div>
