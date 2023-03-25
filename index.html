@@ -321,7 +321,7 @@
 
     <!-- Footer -->
     <footer class="footer">
-    <div class="container">
+    <div class="container footer-container">
             <div class="footer-contain">    
         <a href="./index.html" class="logo footer-logo">Web<span class="logo-footer">Studio</span></a>
         <p class="footer-description">Increase the flow of customers and sales
@@ -360,18 +360,18 @@
                  </li>
             </ul>
         </div>
-        <form class="footer-form">
-            <label class="footer-subtitle" for="email">Subscribe</label>
-            <div class="container-row">
+    <div class="footer-form">
+        <p class="footer-subtitle">Subscribe</p>
+        <form class="container-row">
                 <input type="email" class="footer-input" id="email-footer" name="email" placeholder="E-mail"/>
                 <button type="submit" class="footer-button">Subscribe
                     <svg class="footer-button-icon" width="24" height="20">
                         <use href="./images/icons.svg#icon-planesubscribe"></use>
                     </svg>
                 </button>
-            </div>
         </form>
-     </div>
+    </div>
+    </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
@@ -411,8 +411,7 @@
                     </div>
                     <div class="modal-group">
                         <label class="modal-label" for="comments">Comment</label>
-                        <textarea  class="modal-comments" name="comments" id="comments" rows="6" placeholder="Text input"> 
-                        </textarea>
+                        <textarea  class="modal-comments" name="comments"  id="comments" rows="6" placeholder="Text input"></textarea>
                     </div>
                     <div class="modal-checkbox">
                         <input class="modal-checkbox-input visually-hidden" type="checkbox" id="checkbox" name="checkbox">
@@ -422,7 +421,6 @@
                                     <use href="./images/icons.svg#icon-modalcheckmark"></use>
                                 </svg>
                             </span>
-                
                             <span class="privacy-text">
                                 I accept the terms and conditions of the
                             </span>

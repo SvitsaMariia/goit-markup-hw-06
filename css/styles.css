@@ -43,7 +43,6 @@ h6,
 p {
     margin: 0;
 }
-
 ul,
 ol {
     list-style: none;
@@ -59,8 +58,7 @@ ol {
     padding-right: 15px;
 }
 .header {
-    border-bottom: 1px solid #E7E9FC;
-   
+    border-bottom: 1px solid #E7E9FC; 
 }
 .page-header {
     border-bottom: 1px solid var(--secondary-accent-color);
@@ -88,7 +86,6 @@ ol {
     bottom: -4px;
     background-color: var(--primary-brand-color);
 }
-
 .logo {
     font-family: 'Raleway';
     font-weight: 800;
@@ -190,7 +187,6 @@ img {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
 }
 .hero-title {
     margin: 0 auto;
@@ -365,8 +361,7 @@ img {
 } 
 .svg-logo-company {
     fill: var(--light-slate-color);
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-      
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);  
 }
 .logo-link-company:hover  .svg-logo-company,
 .logo-link-company:focus  .svg-logo-company {
@@ -476,9 +471,12 @@ button:focus {
 }
 /* FOOTER */
 .social-media-contain {
-    margin-right: 120px;
+    /* margin-right: 120px; */
 }
-
+.footer-container {
+    display: flex;
+    align-items: baseline;
+}
 .footer {
     background-color: var(--title-text-color); 
     padding-top: 100px;
@@ -515,7 +513,6 @@ button:focus {
 .social-footer {
     display: flex;
     gap: 16px;
-    justify-content: center;
 }
 .social-link-footer {
     display: flex;
@@ -546,8 +543,9 @@ button:focus {
     display: flex;
 }
 /* FOOTER FORM */
+
 .footer-form{
-    margin-left: 700px;
+    margin-left: auto;
 }
 .footer-subtitle {
     margin-top: -80px;
@@ -631,13 +629,14 @@ button:focus {
     width: 100%;
     top: 50%;
     left: 50%;
-    min-height: 576px;
     border-radius: 4px;
     transform: translate(-50%, -50%);
     background-color: var(--modal-bg-color);
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
     padding-left: 24px;
     padding-right: 24px;
+    padding-top: 72px;
+    padding-bottom: 24px;
 }
 .modal-title {
     display: block;
@@ -646,7 +645,6 @@ button:focus {
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.02em;
-    margin-top: 72px;
     margin-bottom: 16px;
 }
 .modal-btn {
@@ -660,6 +658,7 @@ button:focus {
     width: 24px;
     height: 24px;
     border-radius: 0px;
+    cursor: pointer;
     background-color: var(--secondary-accent-color);
     fill: var(--title-text-color);
     border-color: transparent;
